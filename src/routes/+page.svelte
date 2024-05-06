@@ -93,7 +93,7 @@
 				<h3 class="h3 uppercase font-bold">{entry.title}</h3>
 				<div>{entry.specs}</div>
 				<p class="pt-3">{entry.description}</p>
-				<!-- <div style="max-width: 1080px;"><KomootIframe url={entry.iframeLink} /></div> -->
+				<div style="max-width: 1080px;"><KomootIframe url={entry.iframeLink} /></div>
 			</article>
 		{/each}
 	</main>
