@@ -1,3 +1,4 @@
 html {
-	font-family: sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	scroll-behavior: smooth;
 }
