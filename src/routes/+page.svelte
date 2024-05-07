@@ -13,15 +13,12 @@
 	>
 		<h1 class="h1 uppercase font-bold">1. Trail Fun Run</h1>
 		<p>
-			Bist du bereit, deine Laufschuhe zu schnüren und gemeinsam auf eine unvergessliche Reise zu
-			gehen? Willkommen beim Trail Fun Run, wo der Spaß genauso wichtig ist wie der Lauf! Tauche ein
-			in die atemberaubende Natur, trotze den Herausforderungen der wilden Pfade und erlebe die pure
-			Freude des Trailrunning. Egal, ob du ein erfahrener Trail-Profi oder ein Neuling bist, hier
-			zählt vor allem eines: unsere gemeinsame Leidenschaft für das Laufen in der Natur. Freu dich
-			auf spannende Strecken, unvergessliche Erlebnisse entlang des Weges und freudigem
-			Beisammensein danach.<br /><br />Also los! Der Trail Fun Run wartet darauf, von dir mit
-			Freundschaft, Abenteuerlust und einem Hauch von Heldenmut gefüllt zu werden. Auf geht's die
-			Wadln!
+			Servus, liebe Bergfexn! Seids gegrüßt zum Trail Fun Run, dem entspannten Event für alle, die
+			die Berge lieben und das Berglaufen in der Natur genießen wollen. Schnappts euch eure
+			Lederhosen und Wanderschuhe, denn hier erwartet euch ein Tag voller Gaudi und Abenteuer! Mia
+			ham a paar zünftige Trails für euch vorbereitet, von kloa bis groß is ois dabei! Freuts euch
+			auf atemberaubende Ausblicke, a anspornende Atmosphäre und natürlich jede Menge Spaß.<br />Mia
+			gfrei'n uns auf eich, des wird a Gaudi!
 		</p>
 		<h2 class="h2 uppercase font-bold">Die Strecken</h2>
 		<nav>
