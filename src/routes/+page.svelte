@@ -1,5 +1,6 @@
 <script lang="ts">
 	import '../css/main.css';
+	import Countdown from '../components/Countdown.svelte';
 	import TrailDetails from '../components/TrailDetails.svelte';
 	import Header from '../components/Header.svelte';
 	import { trails } from '../data/trails';
@@ -20,6 +21,7 @@
 			auf atemberaubende Ausblicke, a anspornende Atmosphäre und natürlich jede Menge Spaß.<br />Mia
 			gfrei'n uns auf eich, des wird a Gaudi!
 		</p>
+		<!-- <section class="text-center"><Countdown /></section> -->
 		<h2 class="h2 uppercase font-bold">Die Strecken</h2>
 		<nav>
 			<ul class="ml-8">
