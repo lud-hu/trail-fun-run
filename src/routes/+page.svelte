@@ -14,13 +14,22 @@
 	>
 		<h1 class="h1 uppercase font-bold">1. Trail Fun Run</h1>
 		<p>
-			Servus, liebe Bergfexn! Seids gegrüßt zum Trail Fun Run, dem entspannten Event für alle, die
-			die Berge lieben und das Berglaufen in der Natur genießen wollen. Schnappts euch eure
-			Lederhosen und Wanderschuhe, denn hier erwartet euch ein Tag voller Gaudi und Abenteuer! Mia
-			ham a paar zünftige Trails für euch vorbereitet, von kloa bis groß is ois dabei! Freuts euch
-			auf atemberaubende Ausblicke, a anspornende Atmosphäre und natürlich jede Menge Spaß.<br />Mia
+   Servus, liebe Bergfexn! Seids gegrüßt zum Trail Fun Run, dem entspannten Event für alle, die
+			die Berge lieben und das Berglaufen in der Natur genießen wollen. Schnappt euch eure
+			Lederhosen und Wanderschuhe, denn hier erwartet euch ein Tag voller Gaudi und Abenteuer! Wir
+			haben ein paar zünftige Trails für euch vorbereitet, von klein bis groß ist alles dabei! Freuts euch
+			auf atemberaubende Ausblicke, eine anspornende Atmosphäre und natürlich jede Menge Spaß.<br />Mia
 			gfrei'n uns auf eich, des wird a Gaudi!
 		</p>
+		<h2 class="h2 uppercase font-bold">Das Event</h2>
+		<p>
+			Das Ziel ist, Spaß zu haben! Kein Regelwerk. Kein Stress. Kein Trubel. Wir laufen einfach frühs los
+			(je nach Distanz früher oder später) und kommen nachmittags wieder am Parkplatz an. Dort gibt's dann Verpflegung,
+			Getränke und einen See zum runterkühlen. Das Datum suchen wir gemeinsam aus. Klingt gut? Dann meld dich an!
+		</p>
+		<a href="https://docs.google.com/forms/d/e/1FAIpQLSem6Ry7K2Gn3toIl8yXz1DQbLPSQT9RS9nVC3NvM5oSs7LT5A/viewform?usp=sf_link" class="bg-primary-500 hover:bg-primary-700 text-white font-bold py-2 px-4 rounded">
+			Zur Anmeldung
+		</a>
 		<!-- <section class="text-center"><Countdown /></section> -->
 		<h2 class="h2 uppercase font-bold">Die Strecken</h2>
 		<nav>
