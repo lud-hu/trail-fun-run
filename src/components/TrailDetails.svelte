@@ -17,5 +17,5 @@
 			{/each}
 		</ul>
 	{/if}
-	<!-- <div style="max-width: 1080px;"><KomootIframe url={trail.iframeLink} /></div> -->
+	<div style="max-width: 1080px;"><KomootIframe url={trail.iframeLink} /></div>
 </article>
