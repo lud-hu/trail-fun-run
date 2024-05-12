@@ -82,4 +82,7 @@
 			<TrailDetails {trail} />
 		{/each}
 	</main>
+	<footer class="pb-8">
+		<a href="https://ludwig-hubert.de/imprint.html" target="_blank">Impressum</a>
+	</footer>
 </div>

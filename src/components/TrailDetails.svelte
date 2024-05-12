@@ -11,7 +11,7 @@
 	<p class="py-3">{trail.description}</p>
 	{#if trail.supportStations.length}
 		<h4>Verpflegungsmöglichkeiten:</h4>
-		<ul>
+		<ul class="py-3">
 			{#each trail.supportStations as station}
 				<li class="pl-4">- {station}</li>
 			{/each}
