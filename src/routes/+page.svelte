@@ -6,27 +6,45 @@
 	import { trails } from '../data/trails';
 </script>
 
+<svelte:head>
+	<title>Trail Fun Run 2024</title>
+	<meta name="author" content="Ludwig Hubert" />
+	<meta
+		name="description"
+		content="Der Trail Fun Run 2024 ist ein entspanntes Trail Running Event für alle, die die Berge lieben und das Berglaufen in der Natur genießen wollen. Freut euch auf atemberaubende Ausblicke, eine anspornende Atmosphäre und natürlich jede Menge Spaß."
+	/>
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+	<link rel="manifest" href="/site.webmanifest" />
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+	<meta name="msapplication-TileColor" content="#da532c" />
+	<meta name="theme-color" content="#ffffff" />
+</svelte:head>
+
 <div class="flex justify-center flex-col items-center">
 	<Header />
 	<main
 		id="entry"
 		class="w-full flex-1 flex flex-col gap-8 pt-14 max-w-screen-lg px-4 lg:px-0 mb-8"
 	>
-		<h1 class="h1 uppercase font-bold">1. Trail Fun Run</h1>
+		<h1 class="h1 uppercase font-bold">Trail Fun Run 2024</h1>
 		<p>
-			Servus, liebe Bergfexn! Seids gegrüßt zum Trail Fun Run, dem entspannten Event für alle, die
+			Servus, liebe Bergfexn! Seid gegrüßt zum Trail Fun Run, dem entspannten Event für alle, die
 			die Berge lieben und das Berglaufen in der Natur genießen wollen. Schnappt euch eure
 			Lederhosen und Wanderschuhe, denn hier erwartet euch ein Tag voller Gaudi und Abenteuer! Wir
 			haben ein paar zünftige Trails für euch vorbereitet, von klein bis groß ist alles dabei!
 			Freuts euch auf atemberaubende Ausblicke, eine anspornende Atmosphäre und natürlich jede Menge
-			Spaß.<br />Mia gfrei'n uns auf eich, des wird a Gaudi!
+			Spaß.<br />Auf geht's, des wird a Gaudi!
 		</p>
 		<h2 class="h2 uppercase font-bold">Das Event</h2>
 		<p>
-			Das Ziel ist, Spaß zu haben! Kein Regelwerk. Kein Stress. Kein Trubel. Wir laufen einfach
+			Das Ziel ist es, Spaß zu haben! Kein Regelwerk. Kein Stress. Kein Trubel. Wir laufen einfach
 			frühs los (je nach Distanz früher oder später) und kommen nachmittags wieder am Parkplatz an.
-			Dort gibt's dann Verpflegung, Getränke und einen See zum runterkühlen. Das Datum suchen wir
-			gemeinsam aus. Klingt gut? Dann meld dich an!
+			Die Strecke an sich ist selbstversorgt, heißt ihr müsst euch selbst um eure Verpflegung
+			kümmern. Unten seht ihr aber für jede Distanz, welche Möglichkeiten es unterwegs gibt.<br /> Am
+			Ziel gibt's dann Verpflegung, Getränke und einen See zum runterkühlen. Das Datum suchen wir gemeinsam
+			aus. Klingt gut? Dann meld dich an!
 		</p>
 		<a
 			href="https://docs.google.com/forms/d/e/1FAIpQLSem6Ry7K2Gn3toIl8yXz1DQbLPSQT9RS9nVC3NvM5oSs7LT5A/viewform?usp=sf_link"
@@ -38,7 +56,11 @@
 			>
 			</span>
 		</a>
-		<!-- <section class="text-center"><Countdown /></section> -->
+		<h2 class="h2 uppercase font-bold">Countdown</h2>
+		<section class="text-center">
+			<!-- <Countdown /> -->
+			Der Event-Tag wird noch abgestimmt.
+		</section>
 		<h2 class="h2 uppercase font-bold">Die Strecken</h2>
 		<nav>
 			<ul class="ml-8">
