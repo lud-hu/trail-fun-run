@@ -5,6 +5,10 @@ export interface Trail {
 	description: string;
 	iframeLink: string;
 	supportStations: string[];
+	/**
+	 * Duration estimate in seconds
+	 */
+	durationEstimate: number;
 }
 
 export const trails: Trail[] = [
@@ -16,7 +20,8 @@ export const trails: Trail[] = [
 			"Auf geht's zum Kinderspui, einer gemütlichen 15 km Strecke mit 800 Höhenmetern, perfekt für den Einstieg. Auf geht's die Wadln!",
 		iframeLink:
 			'https://www.komoot.com/de-de/tour/1557811189/embed?share_token=ax7yQBJ6q9e9wqsDei57b2BHmrnN1naX1qqK6WTqRSIXBj8R28&profile=1',
-		supportStations: []
+		supportStations: [],
+		durationEstimate: 2 * 60 * 60
 	},
 	{
 		id: '20.10',
@@ -26,7 +31,8 @@ export const trails: Trail[] = [
 			"Pack die Lederhos ein und starte in den Höhenluft-Hüpfer, einer 20 km Strecke mit 1200 Höhenmetern durchs wunderschöne Oberland. Auf geht's die Wadln!",
 		iframeLink:
 			'https://www.komoot.com/de-de/tour/1557786276/embed?share_token=azmJweGFsZMMpUJjlymFg7J7501FRlJ4k3UMhv2M3wAlyBvWHn&profile=1',
-		supportStations: ['km 15: Trinkwasserstelle Niederleger']
+		supportStations: ['km 15: Trinkwasserstelle Niederleger'],
+		durationEstimate: 3 * 60 * 60
 	},
 	{
 		id: '30.20',
@@ -36,7 +42,8 @@ export const trails: Trail[] = [
 			"An bisserl zünftiger wirds bei der Berg-Brezn, einer 30 km Rundtour mit 1700 Höhenmetern, wo man die Natur in vollen Zügen genießen kann. Auf geht's die Wadln!",
 		iframeLink:
 			'https://www.komoot.com/de-de/tour/1576509271/embed?share_token=a5SgvvLOkTw1t2uN2m49hRTdIU4pe1CLrx0CyOJChWOqPBg6eC&profile=1',
-		supportStations: ['km 15: Tölzer Hütte', 'km 22: Trinkwasserstelle Niederleger']
+		supportStations: ['km 15: Tölzer Hütte', 'km 22: Trinkwasserstelle Niederleger'],
+		durationEstimate: 5 * 60 * 60
 	},
 	{
 		id: '42.25',
@@ -46,7 +53,8 @@ export const trails: Trail[] = [
 		specs: '42 km - 2500hm',
 		iframeLink:
 			'https://www.komoot.com/de-de/tour/1557817955/embed?share_token=aBIYqA97DPlZX656sV9FmZb3MtK65plGAWmZr9EQwLwYGNO7G1&profile=1',
-		supportStations: ['km 15: Tölzer Hütte', 'km 22: Trinkwasserstelle Niederleger']
+		supportStations: ['km 15: Tölzer Hütte', 'km 22: Trinkwasserstelle Niederleger'],
+		durationEstimate: 7.5 * 60 * 60
 	},
 	{
 		id: '60.40',
@@ -61,6 +69,7 @@ export const trails: Trail[] = [
 			'km 31: Trinkwasserstelle Niederleger',
 			'km 35: Möglichkeit für Dead-Drop an Forstweg',
 			'km 50: Möglichkeit für Dead-Drop an Bundesstraße'
-		]
+		],
+		durationEstimate: 11 * 60 * 60
 	}
 ];

@@ -4,6 +4,8 @@
 	import TrailDetails from '../components/TrailDetails.svelte';
 	import Header from '../components/Header.svelte';
 	import { trails } from '../data/trails';
+
+	const GOAL_TIME = new Date(2024, 9, 7, 15, 0);
 </script>
 
 <svelte:head>
@@ -79,7 +81,7 @@
 
 		{#each trails as trail}
 			<hr class="pt-1 my-3 w-1/4 mx-auto bg-primary-500" />
-			<TrailDetails {trail} />
+			<TrailDetails {trail} goalTime={GOAL_TIME} />
 		{/each}
 	</main>
 	<footer class="pb-8">
