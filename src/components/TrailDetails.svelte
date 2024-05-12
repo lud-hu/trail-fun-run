@@ -8,7 +8,7 @@
 	$: startTime = new Date(goalTime.getTime() - trail.durationEstimate * 1000);
 
 	const formatTime = (time: Date) =>
-		time.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+		time.toLocaleTimeString('de', { hour: '2-digit', minute: '2-digit' });
 </script>
 
 <article id={trail.id}>
