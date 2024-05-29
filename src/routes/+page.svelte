@@ -45,8 +45,8 @@
 			frühs los (je nach Distanz früher oder später) und kommen nachmittags wieder am Parkplatz an.
 			Die Strecke an sich ist selbstversorgt, heißt ihr müsst euch selbst um eure Verpflegung
 			kümmern. Unten seht ihr aber für jede Distanz, welche Möglichkeiten es unterwegs gibt.<br /> Am
-			Ziel gibt's dann Verpflegung, Getränke und einen See zum runterkühlen. Das Datum suchen wir gemeinsam
-			aus. Klingt gut? Dann meld dich an!
+			Ziel gibt's dann Verpflegung, Getränke und einen See zum runterkühlen. Klingt gut? Dann meld dich
+			an!
 		</p>
 		<a
 			href="https://docs.google.com/forms/d/e/1FAIpQLSem6Ry7K2Gn3toIl8yXz1DQbLPSQT9RS9nVC3NvM5oSs7LT5A/viewform?usp=sf_link"
