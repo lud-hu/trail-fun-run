@@ -60,8 +60,8 @@
 		</a>
 		<h2 class="h2 uppercase font-bold">Countdown</h2>
 		<section class="text-center">
-			<!-- <Countdown /> -->
-			Der Event-Tag wird noch abgestimmt.
+			<Countdown />
+			<p class="pt-3">Am <strong>07. September 2024</strong> geht's los.</p>
 		</section>
 		<h2 class="h2 uppercase font-bold">Die Strecken</h2>
 		<nav>

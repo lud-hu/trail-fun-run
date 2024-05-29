@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { onDestroy } from 'svelte';
 
-	const EVENT_DATE = new Date(2024, 8, 6);
+	const EVENT_DATE = new Date(2024, 8, 7, 4);
 
 	let now = Date.now();
 	let end = EVENT_DATE.getTime();
