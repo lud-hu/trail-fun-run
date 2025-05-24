@@ -13,63 +13,69 @@ export interface Trail {
 
 export const trails: Trail[] = [
 	{
-		id: '15.8',
-		title: 'Kinderspui',
-		specs: '15 km - 800hm',
+		id: '13.5',
+		title: 'Klein',
+		specs: '13 km - 500 hm',
 		description:
 			"Auf geht's zum Kinderspui, einer gemütlichen 15 km Strecke mit 800 Höhenmetern, perfekt für den Einstieg. Auf geht's die Wadln!",
 		iframeLink:
-			'https://www.komoot.com/de-de/tour/1557811189/embed?share_token=ax7yQBJ6q9e9wqsDei57b2BHmrnN1naX1qqK6WTqRSIXBj8R28&profile=1',
+			'https://www.komoot.com/de-de/tour/2070307687/embed?share_token=aEc4LJCtvH4olvMWcCAHi87A75mn1AARBbTtZ0Bv4lu7DdMxz7&profile=1',
 		supportStations: [],
-		durationEstimate: 2 * 60 * 60
+		durationEstimate: 1.75 * 60 * 60
 	},
 	{
 		id: '20.10',
-		title: 'Höhenluft-Hüpfer',
-		specs: '20 km - 1200hm',
+		title: 'Mittel',
+		specs: '20 km - 1000 hm',
 		description:
 			"Pack die Lederhos ein und starte in den Höhenluft-Hüpfer, einer 20 km Strecke mit 1200 Höhenmetern durchs wunderschöne Oberland. Auf geht's die Wadln!",
 		iframeLink:
-			'https://www.komoot.com/de-de/tour/1557786276/embed?share_token=azmJweGFsZMMpUJjlymFg7J7501FRlJ4k3UMhv2M3wAlyBvWHn&profile=1',
-		supportStations: ['km 15: Trinkwasserstelle Niederleger'],
-		durationEstimate: 3 * 60 * 60
+			'https://www.komoot.com/de-de/tour/2088303526/embed?share_token=ao3tZSlEEM2WM4Zv8r9RqkkXEReM5HafrCeY1W9TvgVGBFwuFt&profile=1',
+		supportStations: [],
+		durationEstimate: 3.25 * 60 * 60
 	},
 	{
-		id: '30.20',
-		title: 'Berg-Brezn',
-		specs: '30 km - 1700hm',
+		id: '34.18',
+		title: 'Groß',
+		specs: '34 km - 1800 hm',
 		description:
 			"An bisserl zünftiger wirds bei der Berg-Brezn, einer 30 km Rundtour mit 1700 Höhenmetern, wo man die Natur in vollen Zügen genießen kann. Auf geht's die Wadln!",
 		iframeLink:
-			'https://www.komoot.com/de-de/tour/1576509271/embed?share_token=a5SgvvLOkTw1t2uN2m49hRTdIU4pe1CLrx0CyOJChWOqPBg6eC&profile=1',
-		supportStations: ['km 15: Tölzer Hütte', 'km 22: Trinkwasserstelle Niederleger'],
-		durationEstimate: 5 * 60 * 60
+			'https://www.komoot.com/de-de/tour/2070299830/embed?share_token=aUIpc6LbSkdiv1I07D9ao9IOzkcxDtuUABEncwz9dxh6hAugZE&profile=1',
+		supportStations: [],
+		durationEstimate: 5.5 * 60 * 60
 	},
 	{
-		id: '42.25',
-		title: 'Gipfel-Gaudi',
+		id: '41.24',
+		title: 'Größer',
 		description:
 			"Jetzt wird's gscheid wild bei der Gipfel-Gaudi, mit 42 km und 2500 Höhenmetern. Für alle, die's wissen wollen und eine Herausforderung ned scheu'n! Auf geht's die Wadln!",
-		specs: '42 km - 2500hm',
+		specs: '41 km - 2400 hm',
 		iframeLink:
-			'https://www.komoot.com/de-de/tour/1557817955/embed?share_token=aBIYqA97DPlZX656sV9FmZb3MtK65plGAWmZr9EQwLwYGNO7G1&profile=1',
-		supportStations: ['km 15: Tölzer Hütte', 'km 22: Trinkwasserstelle Niederleger'],
-		durationEstimate: 7.5 * 60 * 60
+			'https://www.komoot.com/de-de/tour/2070330140/embed?share_token=amhtrljF2qTfTBbPhyLOd8MhYInTydMyxtI71wlZtMy9o3wtz8&profile=1',
+		supportStations: [],
+		durationEstimate: 7 * 60 * 60
 	},
 	{
-		id: '60.40',
-		title: 'Trail T-Rex',
-		specs: '60 km - 4000hm',
+		id: '55.30',
+		title: 'Brutal',
+		specs: '55 km - 3000 hm',
 		description:
 			"Oans, zwoa, g'suffa! Der Trail T-Rex, mit 60 km und 4000 Höhenmetern, nur für die ganz harten Bergfexn, die scho a bisserl depperd san. Auf geht's die Wadln!",
 		iframeLink:
-			'https://www.komoot.com/de-de/tour/1557829457/embed?share_token=a0wHlrHDt8x91iJyQ3sDAlyq80T77vbr9Y3Oykr9ChsHYEM4rw&profile=1',
-		supportStations: [
-			'km 15: Tölzer Hütte',
-			'km 31: Trinkwasserstelle Niederleger',
-			'km 35: Möglichkeit für Dead-Drop an Forstweg',
-			'km 50: Möglichkeit für Dead-Drop an Bundesstraße'
-		],
-		durationEstimate: 11 * 60 * 60
+			'https://www.komoot.com/de-de/tour/2070337065/embed?share_token=aNOlY7L9zzDRQHnvSRNxWN64w8xjDy5l3K7rMmzQVRnyu1Fjus&profile=1',
+		supportStations: [],
+		durationEstimate: 9 * 60 * 60
+	},
+	{
+		id: '77.42',
+		title: 'Extrem',
+		specs: '77 km - 4200 hm',
+		description:
+			"Oans, zwoa, g'suffa! Der Trail T-Rex, mit 60 km und 4000 Höhenmetern, nur für die ganz harten Bergfexn, die scho a bisserl depperd san. Auf geht's die Wadln!",
+		iframeLink:
+			'https://www.komoot.com/de-de/tour/2266462453/embed?share_token=amghjnA08gTFRI0dVLSYN5LCPL6t3N7Wp1oxcNeBh2OvzDVQ7g&profile=1',
+		supportStations: [],
+		durationEstimate: 13 * 60 * 60
 	}
 ];

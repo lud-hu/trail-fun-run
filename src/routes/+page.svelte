@@ -72,7 +72,7 @@
 		</section>
 		<h2 class="h2 font-bold uppercase">Die Strecken</h2>
 		<section class="text-center">Werden noch bekannt gegeben.</section>
-		<!-- <nav>
+		<nav>
 			<ul class="ml-8">
 				{#each trails as trail}
 					<li class="my-2">
@@ -90,7 +90,7 @@
 		{#each trails as trail}
 			<hr class="mx-auto my-3 w-1/4 bg-primary-500 pt-1" />
 			<TrailDetails {trail} goalTime={EVENT_DATE} />
-		{/each} -->
+		{/each}
 	</main>
 	<footer class="pb-8">
 		<a href="https://ludwig-hubert.de/imprint.html" target="_blank">Impressum</a>

@@ -12,12 +12,12 @@
 </script>
 
 <article id={trail.id}>
-	<h3 class="h3 uppercase font-bold">{trail.title}</h3>
+	<h3 class="h3 font-bold uppercase">{trail.title}</h3>
 	<div>{trail.specs}</div>
 	<div class="flex flex-col gap-3 py-3">
 		<p>{trail.description}</p>
 		<div>
-			<span class="italic">Startzeit:</span>
+			<span class="italic">Startzeit (Vorschlag):</span>
 			{formatTime(startTime)} Uhr
 			<small
 				>(Zieleinlauf gegen
