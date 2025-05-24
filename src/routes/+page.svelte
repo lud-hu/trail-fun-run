@@ -31,24 +31,24 @@
 	>
 		<h1 class="h1 font-bold uppercase">Trail Fun Run {EVENT_DATE.getFullYear()}</h1>
 		<p>
-			Servus, liebe Bergfexn! Schnappts euch die Lederhosn und Trailschuhe, denn es geht in die
-			zweite Runde vom Trail Fun Run! Wir haben wieder ein paar zünftige Trails für euch
-			vorbereitet, von klein bis groß ist alles dabei. Freuts euch auf schöne Ausblicke, eine
-			anspornende Atmosphäre und natürlich jede Menge Spaß.<br />Auf geht's!
+			Ciao, liebe Bergfreunde! Mamma mia, endlich geht es in die zweite Runde vom Trail Fun Run! Wir
+			haben wieder ein paar fantastico Trails für euch vorbereitet, von Piccolo bis Estremo ist
+			alles dabei. Freut euch auf bellissimo Ausblicke, eine anspornende Atmosphäre und natürlich
+			jede Menge Spaß. Andiamo Ragazzi!
 		</p>
 		<h2 class="h2 font-bold uppercase">Das Event</h2>
 		<p>
-			Das Ziel ist es, Spaß zu haben. Kein Regelwerk. Kein Stress. Kein Trubel. Wir laufen einfach
-			frühs los (je nach Distanz früher oder später) und kommen nachmittags wieder am Startpunkt an.
-			Die Strecke an sich ist selbstversorgt, heißt ihr müsst euch selbst um eure Verpflegung
-			kümmern. Unten seht ihr aber für jede Distanz, welche Möglichkeiten es unterwegs gibt.
+			Das Ziel ist es, Spaß zu haben. Niente Regelwerk, Stress oder Trubel. Wir laufen einfach frühs
+			los (je nach Distanza früher oder später) und kommen nachmittags wieder am Startpunkt an. Die
+			Strecke an sich ist selbstversorgt, heißt ihr müsst euch selbst um eure Verpflegung kümmern.
+			Unten seht ihr aber für jede Distanza, welche Möglichkeiten es unterwegs gibt.
 			<br /><br />
-			Am Ziel gibt's dann Verpflegung, Getränke und einen See zum runterkühlen. Klingt gut? Dann meld
-			dich an!
+			Am Ziel gibt's dann Verpflegung, Espressi und einen See zum runterkühlen. Perfetto, oder? Dann
+			meld dich an!
 			<br /><br />
-			Eine freiwillige Teilnahmegebühr ermöglicht die Verpflegung am Ziel und alles was übrig bleibt,
-			wird an die richtig gute Organisation
-			<a href="https://amaddata.com/" target="_blank" class="underline">Amaddata</a> gespendet.
+			Eine freiwillige Teilnahmegebühr ermöglicht eine Spende an die associazione
+			<a href="https://amaddata.com/" target="_blank" class="underline">Amaddata</a> und die Verpflegung
+			am Ziel.
 		</p>
 		<!-- <a
 			href="https://docs.google.com/forms/d/e/1FAIpQLSem6Ry7K2Gn3toIl8yXz1DQbLPSQT9RS9nVC3NvM5oSs7LT5A/viewform?usp=sf_link"
@@ -67,11 +67,10 @@
 				Am <strong
 					>{EVENT_DATE.getDate()}. {EVENT_DATE.toLocaleString('de', { month: 'long' })}
 					{EVENT_DATE.getFullYear()}</strong
-				> geht's los.
+				> geht's los. Che bello!
 			</p>
 		</section>
 		<h2 class="h2 font-bold uppercase">Die Strecken</h2>
-		<section class="text-center">Werden noch bekannt gegeben.</section>
 		<nav>
 			<ul class="ml-8">
 				{#each trails as trail}
