@@ -8,11 +8,11 @@
 </script>
 
 <svelte:head>
-	<title>Trail Fun Run 2024</title>
+	<title>Trail Fun Run 2025</title>
 	<meta name="author" content="Ludwig Hubert" />
 	<meta
 		name="description"
-		content="Der Trail Fun Run 2024 ist ein entspanntes Trail Running Event für alle, die die Berge lieben und das Berglaufen in der Natur genießen wollen. Freut euch auf atemberaubende Ausblicke, eine anspornende Atmosphäre und natürlich jede Menge Spaß."
+		content="Der Trail Fun Run 2025 ist ein entspanntes Trail Running Event für alle, die die Berge lieben und das Berglaufen in der Natur genießen wollen. Freut euch auf atemberaubende Ausblicke, eine anspornende Atmosphäre und natürlich jede Menge Spaß."
 	/>
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
