@@ -24,11 +24,11 @@ export const trails: Trail[] = [
 		durationEstimate: 1.75 * 60 * 60
 	},
 	{
-		id: '20.10',
+		id: '21.10',
 		title: 'Medio',
-		specs: '20 km - 1000 hm',
+		specs: '21 km - 1000 hm',
 		description:
-			'Packe deine Trailschuhe ein und starte in den Medio, einer 20 km Strecke mit 1200 Höhenmetern durch die bellissima Landschaft. Andiamo Ragazzi!',
+			'Packe deine Trailschuhe ein und starte in den Medio, einer 21 km Strecke mit 1000 Höhenmetern durch die bellissima Landschaft. Andiamo Ragazzi!',
 		iframeLink:
 			'https://www.komoot.com/de-de/tour/2088303526/embed?share_token=ao3tZSlEEM2WM4Zv8r9RqkkXEReM5HafrCeY1W9TvgVGBFwuFt&profile=1',
 		supportStations: ['6 km: Berggasthof Hocheck', '12 km: Brünnsteinhaus'],
@@ -39,7 +39,7 @@ export const trails: Trail[] = [
 		title: 'Grande',
 		specs: '34 km - 1800 hm',
 		description:
-			"Un po' anspruchsvoller wird es mit dem Grande, einer 30 km Rundtour mit 1700 Höhenmetern, wo man die Natura in vollen Zügen genießen kann. Andiamo Ragazzi!",
+			"Un po' anspruchsvoller wird es mit dem Grande, einer 30 km Rundtour mit 1800 Höhenmetern, wo man die Natura in vollen Zügen genießen kann. Andiamo Ragazzi!",
 		iframeLink:
 			'https://www.komoot.com/de-de/tour/2070299830/embed?share_token=aUIpc6LbSkdiv1I07D9ao9IOzkcxDtuUABEncwz9dxh6hAugZE&profile=1',
 		supportStations: [
@@ -54,7 +54,7 @@ export const trails: Trail[] = [
 		id: '41.24',
 		title: 'Più Grande',
 		description:
-			"Jetzt wird's veramente wild bei der Più Grande, mit 42 km und 2500 Höhenmetern. Für alle, die una sfida grande suchen und keine Angst haben! Andiamo Ragazzi!",
+			"Jetzt wird's veramente wild bei der Più Grande, mit 41 km und 2400 Höhenmetern. Für alle, die una sfida grande suchen und keine Angst haben! Andiamo Ragazzi!",
 		specs: '41 km - 2400 hm',
 		iframeLink:
 			'https://www.komoot.com/de-de/tour/2070330140/embed?share_token=amhtrljF2qTfTBbPhyLOd8MhYInTydMyxtI71wlZtMy9o3wtz8&profile=1',
