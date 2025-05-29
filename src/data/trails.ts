@@ -35,11 +35,11 @@ export const trails: Trail[] = [
 		durationEstimate: 3.25 * 60 * 60
 	},
 	{
-		id: '34.18',
+		id: '35.18',
 		title: 'Grande',
-		specs: '34 km - 1800 hm',
+		specs: '35 km - 1800 hm',
 		description:
-			"Un po' anspruchsvoller wird es mit dem Grande, einer 30 km Rundtour mit 1800 Höhenmetern, wo man die Natura in vollen Zügen genießen kann. Andiamo Ragazzi!",
+			"Un po' anspruchsvoller wird es mit dem Grande, einer 35 km Rundtour mit 1800 Höhenmetern, wo man die Natura in vollen Zügen genießen kann. Andiamo Ragazzi!",
 		iframeLink:
 			'https://www.komoot.com/de-de/tour/2070299830/embed?share_token=aUIpc6LbSkdiv1I07D9ao9IOzkcxDtuUABEncwz9dxh6hAugZE&profile=1',
 		supportStations: [
@@ -51,11 +51,11 @@ export const trails: Trail[] = [
 		durationEstimate: 5.5 * 60 * 60
 	},
 	{
-		id: '41.24',
+		id: '42.24',
 		title: 'Più Grande',
 		description:
-			"Jetzt wird's veramente wild bei der Più Grande, mit 41 km und 2400 Höhenmetern. Für alle, die una sfida grande suchen und keine Angst haben! Andiamo Ragazzi!",
-		specs: '41 km - 2400 hm',
+			"Jetzt wird's veramente wild bei der Più Grande, mit 42 km und 2400 Höhenmetern. Für alle, die una sfida grande suchen und keine Angst haben! Andiamo Ragazzi!",
+		specs: '42 km - 2400 hm',
 		iframeLink:
 			'https://www.komoot.com/de-de/tour/2070330140/embed?share_token=amhtrljF2qTfTBbPhyLOd8MhYInTydMyxtI71wlZtMy9o3wtz8&profile=1',
 		supportStations: [
@@ -63,7 +63,7 @@ export const trails: Trail[] = [
 			'15 km: Brünnsteinhaus',
 			'16 km: Trinkwasserbrunnen',
 			'26 km: Trinkwasserbrunnen',
-			'25 km: Café Dörfl'
+			'36 km: Café Dörfl'
 		],
 		durationEstimate: 7 * 60 * 60
 	},
