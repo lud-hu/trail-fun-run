@@ -50,8 +50,8 @@
 			<a href="https://amaddata.com/" target="_blank" class="underline">Amaddata</a> und die Verpflegung
 			am Ziel.
 		</p>
-		<!-- <a
-			href="https://docs.google.com/forms/d/e/1FAIpQLSem6Ry7K2Gn3toIl8yXz1DQbLPSQT9RS9nVC3NvM5oSs7LT5A/viewform?usp=sf_link"
+		<a
+			href="https://forms.gle/wWCMGfnPafQhhQQ87"
 			class="rounded bg-primary-500 px-4 py-2 font-bold text-white hover:bg-primary-700"
 			target="_blank"
 		>
@@ -59,7 +59,7 @@
 				class="ml-1 inline-block h-3 w-3 -translate-x-1/2 -rotate-45 transform border-b-4 border-r-4 border-inherit"
 			>
 			</span>
-		</a> -->
+		</a>
 		<h2 class="h2 font-bold uppercase">Countdown</h2>
 		<section class="text-center">
 			<Countdown />
@@ -67,10 +67,10 @@
 				Am <strong
 					>{EVENT_DATE.getDate()}. {EVENT_DATE.toLocaleString('de', { month: 'long' })}
 					{EVENT_DATE.getFullYear()}</strong
-				> geht's los. Che bello!
+				> geht's los. Sarà fantastico!
 			</p>
 		</section>
-		<h2 class="h2 font-bold uppercase">Die Strecken</h2>
+		<h2 class="h2 font-bold uppercase">Die Streckenvorschläge</h2>
 		<nav>
 			<ul class="ml-8">
 				{#each trails as trail}
