@@ -1,1 +1,1 @@
-export const EVENT_DATE = new Date(2025, 8, 6, 14);
+export const EVENT_DATE = new Date(2026, 7, 29, 14);

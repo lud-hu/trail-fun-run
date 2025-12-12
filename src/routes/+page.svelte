@@ -30,7 +30,7 @@
 		class="mb-8 flex w-full max-w-screen-lg flex-1 flex-col gap-8 px-4 pt-14 lg:px-0"
 	>
 		<h1 class="h1 font-bold uppercase">Trail Fun Run {EVENT_DATE.getFullYear()}</h1>
-		<p>
+		<!-- <p>
 			Ciao, liebe Bergfreunde! Mamma mia, endlich geht es in die zweite Runde vom Trail Fun Run! Wir
 			haben wieder ein paar fantastico Trails für euch vorbereitet, von Piccolo bis Estremo ist
 			alles dabei. Freut euch auf bellissimo Ausblicke, eine anspornende Atmosphäre und natürlich
@@ -49,8 +49,8 @@
 			Eine freiwillige Teilnahmegebühr ermöglicht eine Spende an die associazione
 			<a href="https://amaddata.com/" target="_blank" class="underline">Amaddata</a> und die Verpflegung
 			am Ziel.
-		</p>
-		<a
+		</p> -->
+		<!-- <a
 			href="https://forms.gle/wWCMGfnPafQhhQQ87"
 			class="rounded bg-primary-500 px-4 py-2 font-bold text-white hover:bg-primary-700"
 			target="_blank"
@@ -59,7 +59,7 @@
 				class="ml-1 inline-block h-3 w-3 -translate-x-1/2 -rotate-45 transform border-b-4 border-r-4 border-inherit"
 			>
 			</span>
-		</a>
+		</a> -->
 		<h2 class="h2 font-bold uppercase">Countdown</h2>
 		<section class="text-center">
 			<Countdown />
@@ -67,10 +67,12 @@
 				Am <strong
 					>{EVENT_DATE.getDate()}. {EVENT_DATE.toLocaleString('de', { month: 'long' })}
 					{EVENT_DATE.getFullYear()}</strong
-				> geht's los. Sarà fantastico!
+				>
+				geht's los.
+				<!-- Sarà fantastico! -->
 			</p>
 		</section>
-		<h2 class="h2 font-bold uppercase">Die Streckenvorschläge</h2>
+		<!-- <h2 class="h2 font-bold uppercase">Die Streckenvorschläge</h2>
 		<nav>
 			<ul class="ml-8">
 				{#each trails as trail}
@@ -89,7 +91,7 @@
 		{#each trails as trail}
 			<hr class="mx-auto my-3 w-1/4 bg-primary-500 pt-1" />
 			<TrailDetails {trail} goalTime={EVENT_DATE} />
-		{/each}
+		{/each} -->
 	</main>
 	<footer class="pb-8">
 		<a href="https://ludwig-hubert.de/imprint.html" target="_blank">Impressum</a>
