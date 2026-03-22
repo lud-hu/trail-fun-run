@@ -39,9 +39,7 @@
 	{#if count > 0}
 		{#each Object.entries({ d, h, m, s }) as [key, value], i}
 			{#if count >= 60 ** (1 - i)}
-				<span class="h1 mr-1 font-bold text-primary-500">{padValue(value)}</span><span
-					class="h4 mr-4">{key}</span
-				>
+				<span class="h1 mr-1 font-bold">{padValue(value)}</span><span class="h4 mr-4">{key}</span>
 			{/if}
 		{/each}
 	{:else}

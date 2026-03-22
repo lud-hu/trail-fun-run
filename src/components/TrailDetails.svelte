@@ -15,13 +15,13 @@
 	<h3 class="h3 font-bold uppercase">{trail.title}</h3>
 	<div>{trail.specs}</div>
 	<div class="flex flex-col gap-3 py-3">
-		<p>{trail.description}</p>
+		<!-- <p>{trail.description}</p> -->
 		<div>
-			<span class="italic">Startzeit (Vorschlag):</span>
-			{formatTime(startTime)} Uhr
+			<span class="italic">Startvorschlag:</span>
+			{formatTime(startTime)} Uhr<br />
 			<small
-				>(Zieleinlauf gegen
-				{formatTime(goalTime)} Uhr)</small
+				>Für Zieleinlauf gegen
+				{formatTime(goalTime)} Uhr</small
 			>
 		</div>
 		{#if trail.supportStations.length}
@@ -31,6 +31,9 @@
 					<li class="pl-4">- {station}</li>
 				{/each}
 			</ul>
+		{:else}
+			<h4 class="italic">Verpflegungsmöglichkeiten:</h4>
+			<div class="pl-4">Info folgt</div>
 		{/if}
 	</div>
 	<div style="max-width: 1080px;"><KomootIframe url={trail.iframeLink} /></div>

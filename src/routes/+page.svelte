@@ -8,11 +8,11 @@
 </script>
 
 <svelte:head>
-	<title>Trail Fun Run 2025</title>
+	<title>Trail Fun Run 2026</title>
 	<meta name="author" content="Ludwig Hubert" />
 	<meta
 		name="description"
-		content="Der Trail Fun Run 2025 ist ein entspanntes Trail Running Event für alle, die die Berge lieben und das Berglaufen in der Natur genießen wollen. Freut euch auf atemberaubende Ausblicke, eine anspornende Atmosphäre und natürlich jede Menge Spaß."
+		content="Der Trail Fun Run 2026 ist ein entspanntes Trail Running Event für alle, die die Berge lieben und das Berglaufen in der Natur genießen wollen. Freut euch auf atemberaubende Ausblicke, eine anspornende Atmosphäre und natürlich jede Menge Spaß."
 	/>
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
@@ -30,49 +30,58 @@
 		class="mb-8 flex w-full max-w-screen-lg flex-1 flex-col gap-8 px-4 pt-14 lg:px-0"
 	>
 		<h1 class="h1 font-bold uppercase">Trail Fun Run {EVENT_DATE.getFullYear()}</h1>
-		<!-- <p>
-			Ciao, liebe Bergfreunde! Mamma mia, endlich geht es in die zweite Runde vom Trail Fun Run! Wir
-			haben wieder ein paar fantastico Trails für euch vorbereitet, von Piccolo bis Estremo ist
-			alles dabei. Freut euch auf bellissimo Ausblicke, eine anspornende Atmosphäre und natürlich
-			jede Menge Spaß. Andiamo Ragazzi!
+		<p>
+			Na endlich geht es in die dritte Runde vom Trail Fun Run! Auch dieses Jahr hat der
+			Spenden-Spaßlauf alles dabei, was ihr auch aus den Vorjahren kennt: Knackige Trails,
+			Wahnsinns-Ausblicke und natürlich jede Menge Spaß. Auf geht's!
 		</p>
 		<h2 class="h2 font-bold uppercase">Das Event</h2>
 		<p>
-			Das Ziel ist es, Spaß zu haben. Niente Regelwerk, Stress oder Trubel. Wir laufen einfach frühs
-			los (je nach Distanza früher oder später) und kommen nachmittags wieder am Startpunkt an. Die
-			Strecke an sich ist selbstversorgt, heißt ihr müsst euch selbst um eure Verpflegung kümmern.
-			Unten seht ihr aber für jede Distanza, welche Möglichkeiten es unterwegs gibt.
+			Ohne Regelwerk und Trubel darf sich jede:r selbstverantwortlich auf die Trails begeben, die
+			Beine malträtieren und ordentlich die Glykogenspeicher leeren. Wichtig ist nur: Spaß! Daher
+			gibt's keine Regeln und keine Zeitnahme, sondern nur die glücklichen Gesichter anderer
+			Trail-Suchtis.<br />
+			Und das Wichtigste: Am Ende gibt's kalte Getränke, Snacks und einen See zum runterkühlen.
 			<br /><br />
-			Am Ziel gibt's dann Verpflegung, Espressi und einen See zum runterkühlen. Perfetto, oder? Dann
-			meld dich an!
-			<br /><br />
-			Eine freiwillige Teilnahmegebühr ermöglicht eine Spende an die associazione
-			<a href="https://amaddata.com/" target="_blank" class="underline">Amaddata</a> und die Verpflegung
-			am Ziel.
-		</p> -->
-		<!-- <a
-			href="https://forms.gle/wWCMGfnPafQhhQQ87"
-			class="rounded bg-primary-500 px-4 py-2 font-bold text-white hover:bg-primary-700"
+			Die freiwillige Teilnahmegebühr ermöglicht eine Spende an
+			<a href="https://amaddata.com/" target="_blank" class="underline"
+				>Amaddata - für Nepals Kinder</a
+			> und die Verpflegung am Ziel. Pay what you want.
+		</p>
+		<a
+			href="https://chat.whatsapp.com/DpyXcnKuQru2YcFv0LCnuM?mode=gi_t"
+			class="flex items-center justify-between rounded bg-primary-500 px-4 py-2 font-bold text-white hover:bg-primary-700"
 			target="_blank"
 		>
-			Zur Anmeldung <span
+			<span>
+				<span class="text-2xl">Ich bin dabei!</span>
+				<br />
+				<span class="text-xs">(Link zur WhatsApp-Gruppe)</span>
+			</span>
+			<span
 				class="ml-1 inline-block h-3 w-3 -translate-x-1/2 -rotate-45 transform border-b-4 border-r-4 border-inherit"
 			>
 			</span>
-		</a> -->
+		</a>
 		<h2 class="h2 font-bold uppercase">Countdown</h2>
-		<section class="text-center">
-			<Countdown />
-			<p class="pt-3">
-				Am <strong
+		<section class="mb-6 text-center">
+			<p>
+				Am
+				<strong class="h1 mr-1 font-bold text-primary-500"
 					>{EVENT_DATE.getDate()}. {EVENT_DATE.toLocaleString('de', { month: 'long' })}
 					{EVENT_DATE.getFullYear()}</strong
 				>
-				geht's los.
-				<!-- Sarà fantastico! -->
+				geht's los!<br /><br />
+				Es gibt keine genauen Startzeiten - der Plan ist, dass alle gegen 14 Uhr im Ziel ankommen. So
+				können wir das Event gemeinsam am See ausklingen lassen.
 			</p>
 		</section>
-		<!-- <h2 class="h2 font-bold uppercase">Die Streckenvorschläge</h2>
+		<h2 class="h2 font-bold uppercase">Die Streckenvorschläge</h2>
+		<p>
+			Ein paar Vorschläge aus dem Oberaudorfer Trail-Eldorado gibt es hier - es findet sich bestimmt
+			auch für jede Route eine Mitstreiter:in. Generell gilt aber: Selbstverantwortlich,
+			selbstversorgt & selbstverständlich mit dem nötigen Sicherheitsequipment.
+		</p>
 		<nav>
 			<ul class="ml-8">
 				{#each trails as trail}
@@ -91,7 +100,7 @@
 		{#each trails as trail}
 			<hr class="mx-auto my-3 w-1/4 bg-primary-500 pt-1" />
 			<TrailDetails {trail} goalTime={EVENT_DATE} />
-		{/each} -->
+		{/each}
 	</main>
 	<footer class="pb-8">
 		<a href="https://ludwig-hubert.de/imprint.html" target="_blank">Impressum</a>
