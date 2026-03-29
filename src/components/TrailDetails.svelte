@@ -2,17 +2,16 @@
 	import KomootIframe from './KomootIframe.svelte';
 	import { type Trail } from '../data/trails';
 
-	export let trail: Trail;
-	export let goalTime: Date;
+	let { trail, goalTime }: { trail: Trail; goalTime: Date } = $props();
 
-	$: startTime = new Date(goalTime.getTime() - trail.durationEstimate * 1000);
+	let startTime = $derived(new Date(goalTime.getTime() - trail.durationEstimate * 1000));
 
 	const formatTime = (time: Date) =>
 		time.toLocaleTimeString('de', { hour: '2-digit', minute: '2-digit' });
 </script>
 
 <article id={trail.id}>
-	<h3 class="h3 font-bold uppercase">{trail.title}</h3>
+	<h3 class="text-2xl font-bold uppercase">{trail.title}</h3>
 	<div>{trail.specs}</div>
 	<div class="flex flex-col gap-3 py-3">
 		<!-- <p>{trail.description}</p> -->
@@ -27,7 +26,7 @@
 		{#if trail.supportStations.length}
 			<h4 class="italic">Verpflegungsmöglichkeiten:</h4>
 			<ul>
-				{#each trail.supportStations as station}
+				{#each trail.supportStations as station, i (i)}
 					<li class="pl-4">- {station}</li>
 				{/each}
 			</ul>
