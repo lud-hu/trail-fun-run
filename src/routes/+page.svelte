@@ -1,6 +1,5 @@
 <script lang="ts">
 	import '../css/main.css';
-	import Countdown from '../components/Countdown.svelte';
 	import TrailDetails from '../components/TrailDetails.svelte';
 	import Header from '../components/Header.svelte';
 	import { trails } from '../data/trails';
@@ -29,13 +28,13 @@
 		id="entry"
 		class="mb-8 flex w-full max-w-screen-lg flex-1 flex-col gap-8 px-4 pt-14 lg:px-0"
 	>
-		<h1 class="h1 font-bold uppercase">Trail Fun Run {EVENT_DATE.getFullYear()}</h1>
+		<h1 class="text-4xl font-bold uppercase">Trail Fun Run {EVENT_DATE.getFullYear()}</h1>
 		<p>
 			Na endlich geht es in die dritte Runde vom Trail Fun Run! Auch dieses Jahr hat der
 			Spenden-Spaßlauf alles dabei, was ihr auch aus den Vorjahren kennt: Knackige Trails,
 			Wahnsinns-Ausblicke und natürlich jede Menge Spaß. Auf geht's!
 		</p>
-		<h2 class="h2 font-bold uppercase">Das Event</h2>
+		<h2 class="text-3xl font-bold uppercase">Das Event</h2>
 		<p>
 			Ohne Regelwerk und Trubel darf sich jede:r selbstverantwortlich auf die Trails begeben, die
 			Beine malträtieren und ordentlich die Glykogenspeicher leeren. Wichtig ist nur: Spaß! Daher
@@ -50,7 +49,7 @@
 		</p>
 		<a
 			href="https://chat.whatsapp.com/DpyXcnKuQru2YcFv0LCnuM?mode=gi_t"
-			class="flex items-center justify-between rounded bg-primary-500 px-4 py-2 font-bold text-white hover:bg-primary-700"
+			class="bg-primary-500 hover:bg-primary-700 flex items-center justify-between rounded px-4 py-2 font-bold text-white"
 			target="_blank"
 		>
 			<span>
@@ -59,15 +58,15 @@
 				<span class="text-xs">(Link zur WhatsApp-Gruppe)</span>
 			</span>
 			<span
-				class="ml-1 inline-block h-3 w-3 -translate-x-1/2 -rotate-45 transform border-b-4 border-r-4 border-inherit"
+				class="ml-1 inline-block h-3 w-3 -translate-x-1/2 -rotate-45 transform border-r-4 border-b-4 border-inherit"
 			>
 			</span>
 		</a>
-		<h2 class="h2 font-bold uppercase">Countdown</h2>
-		<section class="mb-6 text-center">
+		<h2 class="text-3xl font-bold uppercase">Countdown</h2>
+		<section class="mb-6">
 			<p>
 				Am
-				<strong class="h1 mr-1 font-bold text-primary-500"
+				<strong class="text-primary-500 mr-1 text-4xl font-bold"
 					>{EVENT_DATE.getDate()}. {EVENT_DATE.toLocaleString('de', { month: 'long' })}
 					{EVENT_DATE.getFullYear()}</strong
 				>
@@ -76,7 +75,7 @@
 				können wir das Event gemeinsam am See ausklingen lassen.
 			</p>
 		</section>
-		<h2 class="h2 font-bold uppercase">Die Streckenvorschläge</h2>
+		<h2 class="text-3xl font-bold uppercase">Die Streckenvorschläge</h2>
 		<p>
 			Ein paar Vorschläge aus dem Oberaudorfer Trail-Eldorado gibt es hier - es findet sich bestimmt
 			auch für jede Route eine Mitstreiter:in. Generell gilt aber: Selbstverantwortlich,
@@ -84,11 +83,11 @@
 		</p>
 		<nav>
 			<ul class="ml-8">
-				{#each trails as trail}
+				{#each trails as trail (trail.id)}
 					<li class="my-2">
 						<a href={'#' + trail.id}>
 							<span
-								class="mr-2 inline-block h-3 w-3 rotate-45 transform border-r-2 border-t-2 border-primary-500"
+								class="border-primary-500 mr-2 inline-block h-3 w-3 rotate-45 transform border-t-2 border-r-2"
 							></span>
 							{trail.title}: {trail.specs}
 						</a>
@@ -97,8 +96,8 @@
 			</ul>
 		</nav>
 
-		{#each trails as trail}
-			<hr class="mx-auto my-3 w-1/4 bg-primary-500 pt-1" />
+		{#each trails as trail (trail.id)}
+			<hr class="bg-primary-500 mx-auto my-3 w-1/4 border-t-0 pt-1" />
 			<TrailDetails {trail} goalTime={EVENT_DATE} />
 		{/each}
 	</main>

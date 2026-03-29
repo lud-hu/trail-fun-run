@@ -1,22 +1,14 @@
 <script lang="ts">
-	import { onDestroy } from 'svelte';
 	import { EVENT_DATE } from '../data/statics';
 
-	let now = Date.now();
+	let now = $state(Date.now());
 	let end = EVENT_DATE.getTime();
 
-	$: count = Math.round((end - now) / 1000);
-	$: d = Math.floor(count / (3600 * 24));
-	$: h = Math.floor((count % (3600 * 24)) / 3600);
-	$: m = Math.floor((count % 3600) / 60);
-	$: s = count % 60;
-
-	function updateTimer() {
-		now = Date.now();
-	}
-
-	let interval = setInterval(updateTimer, 1000);
-	$: if (count === 0) clearInterval(interval);
+	let count = $derived(Math.round((end - now) / 1000));
+	let d = $derived(Math.floor(count / (3600 * 24)));
+	let h = $derived(Math.floor((count % (3600 * 24)) / 3600));
+	let m = $derived(Math.floor((count % 3600) / 60));
+	let s = $derived(count % 60);
 
 	/**
 	 * Pads a number with a given character to a given length.
@@ -30,19 +22,33 @@
 		return `${char.repeat(length - currentLength)}${value}`;
 	}
 
-	onDestroy(() => {
-		clearInterval(interval);
+	$effect(() => {
+		const interval = setInterval(() => {
+			now = Date.now();
+		}, 1000);
+
+		return () => {
+			clearInterval(interval);
+		};
+	});
+
+	$effect(() => {
+		if (count <= 0) {
+			now = end;
+		}
 	});
 </script>
 
 <div aria-label={'Countdown bis zum ' + EVENT_DATE.toLocaleDateString()}>
 	{#if count > 0}
-		{#each Object.entries({ d, h, m, s }) as [key, value], i}
+		{#each Object.entries({ d, h, m, s }) as [key, value], i (key)}
 			{#if count >= 60 ** (1 - i)}
-				<span class="h1 mr-1 font-bold">{padValue(value)}</span><span class="h4 mr-4">{key}</span>
+				<span class="mr-1 text-4xl font-bold">{padValue(value)}</span><span class="mr-4 text-xl"
+					>{key}</span
+				>
 			{/if}
 		{/each}
 	{:else}
-		<span class="h2 font-bold text-primary-500">Das Event ist vorbei.</span>
+		<span class="text-primary-500 text-3xl font-bold">Das Event ist vorbei.</span>
 	{/if}
 </div>
