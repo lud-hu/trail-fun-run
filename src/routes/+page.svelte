@@ -63,7 +63,7 @@
 			</span>
 		</a>
 		<h2 class="text-3xl font-bold uppercase">Countdown</h2>
-		<section class="mb-6 text-center">
+		<section class="mb-6">
 			<p>
 				Am
 				<strong class="text-primary-500 mr-1 text-4xl font-bold"
@@ -97,7 +97,7 @@
 		</nav>
 
 		{#each trails as trail (trail.id)}
-			<hr class="bg-primary-500 mx-auto my-3 w-1/4 pt-1" />
+			<hr class="bg-primary-500 mx-auto my-3 w-1/4 border-t-0 pt-1" />
 			<TrailDetails {trail} goalTime={EVENT_DATE} />
 		{/each}
 	</main>
