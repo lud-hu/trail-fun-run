@@ -1,9 +1,6 @@
 <script lang="ts">
-	import '../css/main.css';
-	import Countdown from '../components/Countdown.svelte';
-	import TrailDetails from '../components/TrailDetails.svelte';
 	import Header from '../components/Header.svelte';
-	import { trails } from '../data/trails';
+	import '../css/main.css';
 	import { EVENT_DATE } from '../data/statics';
 </script>
 
@@ -31,16 +28,15 @@
 	>
 		<h1 class="h1 font-bold uppercase">Trail Fun Run {EVENT_DATE.getFullYear()}</h1>
 		<p>
-			Na endlich geht es in die dritte Runde vom Trail Fun Run! Auch dieses Jahr hat der
-			Spenden-Spaßlauf alles dabei, was ihr auch aus den Vorjahren kennt: Knackige Trails,
-			Wahnsinns-Ausblicke und natürlich jede Menge Spaß. Auf geht's!
+			Markiert euch schonmal den Kalender für die vierte Runde vom Trail Fun Run! Auch {EVENT_DATE.getFullYear()}
+			hat der Spenden-Spaßlauf alles dabei, was ihr auch aus den Vorjahren kennt: Knackige Trails, Wahnsinns-Ausblicke
+			und natürlich jede Menge Spaß. Auf geht's!
 		</p>
 		<h2 class="h2 font-bold uppercase">Das Event</h2>
 		<p>
-			Ohne Regelwerk und Trubel darf sich jede:r selbstverantwortlich auf die Trails begeben, die
-			Beine malträtieren und ordentlich die Glykogenspeicher leeren. Wichtig ist nur: Spaß! Daher
-			gibt's keine Regeln und keine Zeitnahme, sondern nur die glücklichen Gesichter anderer
-			Trail-Suchtis.<br />
+			Ohne Regelwerk und Trubel darf sich jede:r selbstverantwortlich auf die Trails begeben und die
+			Beine malträtieren. Wichtig ist nur: Spaß! Daher gibt's keine Regeln und keine Zeitnahme,
+			sondern nur die glücklichen Gesichter anderer Trail-Suchtis.<br />
 			Und das Wichtigste: Am Ende gibt's kalte Getränke, Snacks und einen See zum runterkühlen.
 			<br /><br />
 			Die freiwillige Teilnahmegebühr ermöglicht eine Spende an
@@ -76,7 +72,7 @@
 				können wir das Event gemeinsam am See ausklingen lassen.
 			</p>
 		</section>
-		<h2 class="h2 font-bold uppercase">Die Streckenvorschläge</h2>
+		<!-- <h2 class="h2 font-bold uppercase">Die Streckenvorschläge</h2>
 		<p>
 			Ein paar Vorschläge aus dem Oberaudorfer Trail-Eldorado gibt es hier - es findet sich bestimmt
 			auch für jede Route eine Mitstreiter:in. Generell gilt aber: Selbstverantwortlich,
@@ -100,7 +96,7 @@
 		{#each trails as trail}
 			<hr class="mx-auto my-3 w-1/4 bg-primary-500 pt-1" />
 			<TrailDetails {trail} goalTime={EVENT_DATE} />
-		{/each}
+		{/each} -->
 	</main>
 	<footer class="pb-8">
 		<a href="https://ludwig-hubert.de/imprint.html" target="_blank">Impressum</a>
